@@ -1,0 +1,35 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.9.0
+[debug] Platform:     win32
+[debug] Node Version: v6.10.3
+[debug] Time:         Tue May 30 2017 17:58:20 GMT-0500 (Central Daylight Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/tb5-0OTpAgvvge3PCUdru-e6whLeYBxR3shyDzLSqZY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue May 30 2017 17:58:20 GMT-0500 (Central Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/brewers-stats  
+ Tue May 30 2017 17:58:20 GMT-0500 (Central Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/brewers-stats/tokens  
+ Tue May 30 2017 17:58:21 GMT-0500 (Central Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Brian\blur-admin-master\new\blur-admin'...
+[info] 
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/brewers-stats  
+ Tue May 30 2017 17:58:22 GMT-0500 (Central Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/688974963731/clients/_:getWebAppConfig  
+ Tue May 30 2017 17:58:22 GMT-0500 (Central Daylight Time)
+[debug] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000
+
